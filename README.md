@@ -1,16 +1,91 @@
-# React + Vite
+# Registration Form – React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Registration Form** built with **React.js** and **React Hook Form**.
+The main focus of this project is clean form handling, input validation, error handling, and a better user experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* User Registration Form
+* Built with React.js
+* Form handling using **React Hook Form**
+* Input validation
+* Error handling and validation messages
+* Controlled form submission
+* Required field validation
+* Password validation
+* Clean and responsive UI
+* User-friendly error messages
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js**
+* **React Hook Form**
+* **JavaScript**
+* **HTML5**
+* **CSS3**
 
-## Expanding the ESLint configuration
+## 📚 React Hook Form
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+In this project, I used **React Hook Form** to manage the registration form.
+
+It helped me to:
+
+* Handle form inputs efficiently
+* Manage form submission
+* Validate user inputs
+* Handle validation errors
+* Display error messages
+* Keep the form logic clean and organized
+
+## 📝 Form Validation
+
+The registration form includes validation to make sure the user enters valid information before submitting the form.
+
+For example:
+
+* Required fields cannot be empty
+* Password follows the required pattern
+* Invalid inputs display appropriate error messages
+* Form submission is handled only after successful validation
+
+## 🎯 What I Learned
+
+Through this project, I practiced:
+
+* Working with React components
+* Using React Hook Form
+* Handling form state
+* Implementing form validation
+* Handling validation errors
+* Creating reusable and clean form logic
+* Improving user experience with proper error messages
+
+## 📂 Project Purpose
+
+This project was created to practice **React form handling and validation** using React Hook Form and to understand how real-world registration forms are structured.
+
+## ▶️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## 👨‍💻 Author
+
+**Talha**
+
+Frontend / MERN Stack Developer
